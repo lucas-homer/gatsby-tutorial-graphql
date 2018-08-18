@@ -3,6 +3,7 @@ module.exports = {
 		title: `Pandas Eating Anywhere`,
 	},
 	plugins: [
+		`gatsby-transformer-remark`,
 		`gatsby-plugin-glamor`,
 		{
 			resolve: `gatsby-plugin-typography`,
